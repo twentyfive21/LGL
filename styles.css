@@ -173,9 +173,15 @@ background: linear-gradient(0deg, white 0%, white 100%);
  margin: 4.0%;
  padding: 4.0%;
  padding-left: 20%;
+ padding-top: 12%;
+}
+
+.space {
+  padding-top: 10%;
 }
 
 .col-md-8 {
+  padding-top: 5%;
   padding-right: 13%;
   padding-left: 13%;
 }
@@ -247,33 +253,9 @@ background: linear-gradient(0deg, white 0%, white 100%);
 
 
 /* footer */
-section {
-  background-color: coral;
-}
-.test {
-  background-color: #11290f;
-}
 
 
 
 
 
-
-/* 
-#mydiv {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
-
-#mydiv p {
-  text-align: center;
-}
-
-#mydiv img {
-  width: auto;
-  margin: 100px auto 12px auto;
-  height: 210px;
-  display: block;
-}
-*/
 
