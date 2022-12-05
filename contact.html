@@ -27,33 +27,34 @@
             <div>
                 <img src="./images/map.png" class="map">
             </div>
-            <div class="left">
-                <div>
+            <div>
+                <div class="left">
                     <p>Name *</p>
                     <input type="text" placeholder="First Name" class="small">
                     <input type="text" placeholder="Last Name" class="small">
                 </div>
-                <div>
+                <div class="left">
+                    <!--- will accept numbers only --->
+                    <p>Phone Number *</p>
+                    <input type="text" onkeypress="return /[0-9]/i.test(event.key)" " placeholder="*** - *** - ****" class="small">
+                </div>
+                <div class="left" >
                     <p>Please briefly describe your project *</p>
                     <textarea placeholder="We are excited you have chosen us for your project!" cols="50" rows="4" class="big"></textarea>
                 </div>
-                <div>
+                <div class="left">
                     <p>Email Address *</p>
                     <input type="text" placeholder="yourfavoritelandscaper@gmail.com" class="medium">
                 </div>
-                <div>
+                <div class="left">
                     <p>Full Address *</p>
                     <input type="text" placeholder="336 lovely st, city, state, zip" class="medium"
-                </div>
-                <div>
-                <!--- will accept numbers only --->
-                    <p>Phone Number *</p>
-                    <input type="text" onkeypress="return /[0-9]/i.test(event.key)" " placeholder="*** - *** - ****" class="small">
                 </div>
         </div>
         <div>
         <button class="custom-btn btn-5">SUBMIT</button>
         </div>
+        <br>
         <div class="foot">
             <footer>
                 <p>HAVE A PROJECT IN MIND ? SCHEDULE A CONSULT.</p>
