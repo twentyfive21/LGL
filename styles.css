@@ -101,7 +101,6 @@ hr {
 
 button {
   margin: 20px;
-  border: 10px solid black;
 }
 .custom-btn {
   width: 130px;
@@ -246,6 +245,14 @@ background: linear-gradient(0deg, white 0%, white 100%);
   margin: 0;
 }
 
+
+/* footer */
+section {
+  background-color: coral;
+}
+.test {
+  background-color: #11290f;
+}
 
 
 
