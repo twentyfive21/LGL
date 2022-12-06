@@ -44,18 +44,80 @@
             </div>
             <button class="custom-btn btn-5"><a href="services.html">SERVICES</a></button>
         </div>
+        <div class="maindiv-heading"></div>
         <div>
             <hr>
-            <p class="center">FOLLOW US ON INSTAGRAM TO SEE OUR MOST RECENT PROJECTS IN PROGRESS.</p>
-            <img src>
-            <!-- add last part-->
+            <p class="center2">FOLLOW US ON INSTAGRAM TO SEE OUR MOST RECENT PROJECTS IN PROGRESS.</p>
         </div>
+            <!-- add last part-->
+            <!-- Image Slider Start -->
+  <div class="slider">
+    <div class="slides">
+      <!-- Radio Button Start  -->
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+      <!-- Radio Button Close  -->
+
+      <!-- Slide Image Start -->
+      <div class="slide first">
+        <img src="./images/slide-1.JPG" alt="">
+      </div>
+      <div class="slide">
+        <img src="./images/slide-5.JPG" alt="">
+      </div>
+      <div class="slide">
+        <img src="./images/slide-3.JPG" alt="">
+      </div>
+      <div class="slide">
+        <img src="./images/slide-4.JPG" alt="">
+      </div>
+      <!-- Slide Image Close -->
+
+      <!-- Automatic Navigation Start -->
+      <div class="navigation-auto">
+        <div class="auto-btn-1"></div>
+        <div class="auto-btn-2"></div>
+        <div class="auto-btn-3"></div>
+        <div class="auto-btn-4"></div>
+      </div>
+      <!-- Automatic Navigation Close -->
+    </div>
+	
+      <!-- Mannual Navigation Start -->
+      <div class="navigation-mannual">
+        <label for="radio1" class="mannual-btn"></label>
+        <label for="radio2" class="mannual-btn"></label>
+        <label for="radio3" class="mannual-btn"></label>
+        <label for="radio4" class="mannual-btn"></label>
+      </div>
+      <!-- Mannual Navigation Close -->
+  </div>
+  <!-- Image Slider Close -->
+  <script>
+    var counter = 1;
+    setInterval(function()  {
+      document.getElementById('radio'+ counter).checked = true;
+      counter++; 
+
+      if(counter>4){
+        counter=1
+      }
+
+    }, 5000);
+  </script>
+            <!--
+           <div class="maindiv">
+           </div>
+        -->
+           <div class="center2"></div>
+        </body>
         <div class="foot">
             <footer>
                 <p>HAVE A PROJECT IN MIND ? SCHEDULE A CONSULT.</p>
-                    <button><a href="contact.html">CONTACT US</a></button>
+                    <button class="foot-btn"><a href="contact.html">CONTACT US</a></button>
                    <a href="https://www.instagram.com/looking_good_landscaping/?hl=en"><img class="instagram" src="images/insta.png" alt="instagram"></a>
             </footer>
         </div>
-        <script src="script.js"></script>
 </html>

@@ -1,17 +1,16 @@
 /* service image css*/
 .ser {
-    width: 1400px;
-    height: 400px;
-    margin-right: 20px;
-    margin-left: 20px;
+    width: 1300x;
+    height: 500px;
+    margin-right: 30px;
+    margin-left: 30px;
     margin-top: 25px;
     margin-bottom: 95px;
     display: flex;
-    filter: saturate(155%);
     align-items: center;
     justify-content: center;
     border: 10px solid white;
-    background-image: url(./images/treecut.jpg);
+    background-image: url(./images/finaltree.jpeg);
     background-size: cover;
     background-position: 50%;
     background-attachment: fixed;
@@ -33,9 +32,6 @@
     padding-left: 135px;
     padding-top: 50px;
     letter-spacing: 2px;
-}
-#buttonleft {
-    
 }
 /* input boxes */
 .small {
@@ -89,32 +85,33 @@
     padding-right: 250px;
     letter-spacing: 1px;
 }
-/* footer */
+/* footer*/
 .foot{
-    width: auto;
     height: 400px;
+    width: auto;
+    padding-top: 140px;
+    padding-left: 50px;
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 30px;
-    padding-top: 100px;
+    text-align: center;
+    text-align: center;
     color: white;
     font-size: medium;
     font-weight: lighter;
-    text-align: center;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     background-color:rgb(53, 53, 22);
     font-family: didot, serif;
 }
 .instagram {
-    width: 90px;
+    width: 60px;
     height: auto;
-    padding-top: 150px;
-    padding-right: 10px;
     -webkit-user-drag: none;
 }
   .custom-btn {
     width: 200px;
     height: 50px;
+    margin-left: 155px;
     font-family: didot, serif;
     letter-spacing: 1.5px;
     background: transparent;
@@ -125,7 +122,6 @@
     border: 2px solid black;
     text-decoration: none;
     color:  #11290f;
-    margin-left: 155px;
   }
   .btn-5:hover {
     border: transparent;
@@ -133,6 +129,49 @@
   }
   .btn-5:before,
   .btn-5:after{
+    background: burlywood;
+  }
+  /* Footer button */
+  .foot-btn {
+    width: 200px;
+    height: 50px;
+    font-family: didot, serif;
+    letter-spacing: 1.5px;
+    background: transparent;
+    cursor: crosshair;
+    transition: all 0.5s ease;
+    border-radius: 0px;
+    border: 2px solid white;
+    color:  #11290f;
+    -webkit-user-drag: none;
+
+  }
+  .foot-btn a {
+    text-decoration: none;
+    color: white;
+  }
+  .contact-btn {
+    width: 200px;
+    height: 50px;
+    margin-left: 135px;
+    margin-top: 40px;
+    margin-bottom: 150px;
+    font-family: didot, serif;
+    letter-spacing: 1.5px;
+    background: transparent;
+    cursor: crosshair;
+    transition: all 0.5s ease;
+    position: relative;
+    border-radius: 0px;
+    border: 2px solid black;
+    text-decoration: none;
+    color:  #11290f;
+  }
+  .con-5:hover {
+    border: transparent;
+    color: black;
+  }
+  .con-5:before, .con-5:after{
     background: burlywood;
   }
   
