@@ -28,31 +28,38 @@
                 <img src="./images/map.png" class="map">
             </div>
             <div>
+                <form action="https://formsubmit.co/tina.winnn@gmail.com" method="POST">
                 <div class="left">
                     <p>Name *</p>
-                    <input type="text" placeholder="First Name" class="small">
-                    <input type="text" placeholder="Last Name" class="small">
+                    <input type="text" name="first" placeholder="First Name" class="small" required>
+                    <input type="text" name="last" placeholder="Last Name" class="small" required>
                 </div>
                 <div class="left">
                     <!--- will accept numbers only --->
                     <p>Phone Number *</p>
-                    <input type="text" onkeypress="return /[0-9]/i.test(event.key)" " placeholder="*** - *** - ****" class="small">
+                    <input type="text" name="number" onkeypress="return /[0-9]/i.test(event.key)" " placeholder="*** - *** - ****" class="small" required>
                 </div>
-                <div class="left" >
+                <div class="left">
                     <p>Please briefly describe your project *</p>
-                    <textarea placeholder="We are excited you have chosen us for your project!" cols="50" rows="4" class="big"></textarea>
+                    <input type="textarea" name="project" textarea placeholder="We are excited you have chosen us for your project!" cols="50" rows="4" class="big" required></textarea>
                 </div>
                 <div class="left">
                     <p>Email Address *</p>
-                    <input type="text" placeholder="yourfavoritelandscaper@gmail.com" class="medium">
+                    <input type="text" name="email" placeholder="yourfavoritelandscaper@gmail.com" class="medium" required>
                 </div>
                 <div class="left">
                     <p>Full Address *</p>
-                    <input type="text" placeholder="336 lovely st, city, state, zip" class="medium"
+                    <input type="text" name="address" placeholder="336 lovely st, city, state, zip" class="medium" required>
                 </div>
-        </div>
-        <div>
-        <button class="contact-btn">SUBMIT</button>
+                <div>
+                    <button type="submit" class="contact-btn">SUBMIT</button>
+                </div>
+                <input type="hidden" name="_subject" value="LGL New Inquiry">
+                <input type="hidden" name="_captcha" value="false">
+
+               <!-- <input type="hidden" name="_next" value="./thankyou.html"> -->
+
+                </form>
         </div>
         <div>
             <footer class="foot">
@@ -61,5 +68,6 @@
                    <a href="https://www.instagram.com/looking_good_landscaping/?hl=en"><img class="instagram" src="images/insta.png" alt="instagram"></a>
             </footer>
         </div>
+    </body>
         <script src="script.js"></script>
 </html>
