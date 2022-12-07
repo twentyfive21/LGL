@@ -203,7 +203,7 @@ background: linear-gradient(0deg, white 0%, white 100%);
   float: left;
   font-size: 9pt; 
   width: 30%; 
-  margin: 15px 17px 15px 17px;
+  margin: 15px 20px 15px 23px;
 }
 
 .image-list-small li {
@@ -214,6 +214,11 @@ background: linear-gradient(0deg, white 0%, white 100%);
 
 
 /* Photo */
+
+.test {
+  text-align:center;
+ display:block;
+}
 
 .image-list-small li > a {
   display: block;
@@ -256,7 +261,7 @@ background: linear-gradient(0deg, white 0%, white 100%);
 .ending-header {
     text-align: center;
     letter-spacing: 6px;
-    margin-top: 40%;
+    margin-top: 32%;
     padding-top: 80px;
     padding-bottom: 80px;
     text-transform: capitalize;
@@ -264,23 +269,30 @@ background: linear-gradient(0deg, white 0%, white 100%);
 
 
 /* image slider */
+.padding-serv {
+  display: flex;
+  justify-content: center;
+}
+
+
 
 .slider{
   width: 800px;
   height: 500px;
   border-radius: 7px;
   overflow: hidden;
-  margin-left: 23%;
 }
 
 .slides{
   width: 500%;
   height: 500px;
   display: flex;
+  text-align:center;
 }
 
 .slides input{
   display: none;
+  
 }
 
 .slide{
@@ -370,36 +382,6 @@ background: linear-gradient(0deg, white 0%, white 100%);
   background: #ccc;
 }
 
-/* .maindiv{
-  width: 70%;
-  height: 400px;
-  position: relative;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%);
-  background-image: url(./images/slide-1.JPG);
-  background-size: 100% 100%;
-  animation: slider 10s infinite;
-}
-
-@keyframes slider{
-  0%{
-    background-image: url(./images/slide-5.JPG);
-  }
-  25%{
-    background-image: url(./images/slide-2.JPG);
-  }
-  50%{
-    background-image: url(./images/slide-3.JPG);
-  }
-  75%{
-    background-image: url(./images/slide-4.JPG);
-  }
-  100%{
-    background-image: url(./images/slide-1.JPG);
-  }
-}
-*/
 
 .maindiv-heading{
   padding: 20px;
