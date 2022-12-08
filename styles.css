@@ -169,8 +169,8 @@ background: linear-gradient(0deg, white 0%, white 100%);
 
   /* ABOUT US HTML PAGE */
 .media-img {
-  height: 300; 
-  width: 450;
+  height: 300px; 
+  width: 450px;
 }
 
 .evan {
@@ -398,6 +398,7 @@ background: linear-gradient(0deg, white 0%, white 100%);
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 
 
 
