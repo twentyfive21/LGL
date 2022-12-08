@@ -168,6 +168,11 @@ background: linear-gradient(0deg, white 0%, white 100%);
 }
 
   /* ABOUT US HTML PAGE */
+.media-img {
+  height: 300; 
+  width: 450;
+}
+
 .evan {
  object-fit: fill;
  margin: 4.0%;
@@ -217,7 +222,7 @@ background: linear-gradient(0deg, white 0%, white 100%);
 
 .test {
   text-align:center;
- display:block;
+ display: block;
 }
 
 .image-list-small li > a {
@@ -392,4 +397,60 @@ background: linear-gradient(0deg, white 0%, white 100%);
   letter-spacing: 2px;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+
+
+/* responsive page */
+
+@media screen and (max-width: 600px)
+ {
+  .media-img {
+    width: 400px;
+    padding-right: 50%;
+    margin-inline: auto;
+  }
+  .card-text {
+    text-align: left;
+  }
+  .card-title {
+    text-align: right;
+  }
+  .fix-media-pro {
+    display: inline-block;
+}
+.image-list-small li {
+  display: inline;
+}
+  .media-1 {
+position:initial;
+  right: 0px;
+  width: 300px;
+  padding: 10px;
+  display: inline-block;
+  }
+  .media-2 {
+    position:static;
+  right: 0px;
+  width: 180px;
+  padding: 10px;
+  display:flexbox;
+
+  }
+  .image-author, .details {
+    text-align: center;
+  }
+  .media-3 {
+    position:static;
+    right: 0px;
+    width: 350px;
+    padding: 10px;
+    display:flexbox;
+  }
+  .foot {
+    padding: auto auto auto auto;
+  }
+  footer {
+    padding-right: 20px;
+  }
 }
