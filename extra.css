@@ -107,7 +107,6 @@
     margin-right: 30px;
     margin-bottom: 30px;
     text-align: center;
-    text-align: center;
     color: white;
     font-size: medium;
     font-weight: lighter;
@@ -205,4 +204,44 @@
     padding-right: 15px;
     list-style: none;
 }
-} 
+.foot {
+  font-size: 10px;
+  padding-right: 50px;
+  letter-spacing: 1.5px;
+  height: 400px;
+  width: auto;
+  color: white;
+  font-size: medium;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  background-color:rgb(53, 53, 22);
+  font-family: didot, serif;
+}
+.foot p {
+  font-size: 10px;
+  text-align: center;
+}
+.foot button {
+  font-size: 10px;
+  border: 0.5px solid white;
+  align-items: center;
+}
+
+}
+.instagram {
+    width: 45px;
+    height: auto;
+    align-items: center;
+    -webkit-user-drag: none;
+}
+.foot-btn {
+  width: 150px;
+  height: 50px;
+  font-family: didot, serif;
+  background: transparent;
+  cursor: crosshair;
+  border-radius: 0px;
+  border: 2px solid white;
+  color:  #11290f;
+  -webkit-user-drag: none;
+}
