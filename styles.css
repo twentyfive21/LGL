@@ -479,50 +479,12 @@ background: linear-gradient(0deg, white 0%, white 100%);
 
 
 /* responsive page */
-@media screen and (max-width: 600px)
+@media (max-width: 600px)
  {
-  .media-img {
-    width: 400px;
-    padding-right: 50%;
-    margin-inline: auto;
+  .image-list-small{
+    width: 500px;
   }
-  .card-text {
-    text-align: left;
-  }
-  .card-title {
-    text-align: right;
-  }
-  .fix-media-pro {
-    display: inline-block;
-}
-.image-list-small li {
-  display: inline;
-}
-  .media-1 {
-position:initial;
-  right: 0px;
-  width: 300px;
-  padding: 10px;
-  display: inline-block;
-  }
-  .media-2 {
-    position:static;
-  right: 0px;
-  width: 180px;
-  padding: 10px;
-  display:flexbox;
 
-  }
-  .image-author, .details {
-    text-align: center;
-  }
-  .media-3 {
-    position:static;
-    right: 0px;
-    width: 350px;
-    padding: 10px;
-    display:flexbox;
-  }
 }
 
 @media (max-width: 600px) 
