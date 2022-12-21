@@ -579,33 +579,4 @@ background: linear-gradient(0deg, white 0%, white 100%);
 }
 
 
-@media (max-width: 1440px){
-  .nav-bar-links ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin-left: 260px;
-    margin-right:auto ;
-    width: 90%;
-   }
-
-
-}
-
-@media (max-width: 2000px){
-  .nav-bar-links ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin-left: 500px;
-    margin-right:auto ;
-    width: 90%;
-   }
-
-
-}
 
