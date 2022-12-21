@@ -77,7 +77,7 @@ body {
  .toggle-button .bar{
   height: 3px;
   width: 100%;
-  background-color: lightgray;
+  background-color: gray;
   border-radius: 10px;
  }
 
@@ -477,20 +477,11 @@ background: linear-gradient(0deg, white 0%, white 100%);
 
 
 
-
-/* responsive page */
-@media (max-width: 600px)
- {
-  .image-list-small{
-    width: 500px;
-  }
-
-}
-
 @media (max-width: 600px) 
 {
   .toggle-button {
-    display: flex;
+   display: flex;
+   margin-left: 150px;
   }
 
   .nav-bar-links {
@@ -523,3 +514,98 @@ background: linear-gradient(0deg, white 0%, white 100%);
    }
 
 }
+
+@media (max-width: 375px) {
+  .image-list-small{
+    width: 300px;
+    margin-top: -30px;
+    padding-right: 20px;
+  }
+
+}
+
+/* projects*/
+
+/* responsive page */
+@media (max-width: 600px)
+ {
+  .image-list-small{
+    width: 300px;
+    margin-top: -30px;
+    padding-left: 50px;;
+  }
+
+}
+
+
+/* ending */
+
+@media (max-width: 600px){
+  .scroll {
+    width: 400px;
+  }
+  .scroll-head {
+    margin-left: 100px;
+    font-size: 15px;
+    margin-right: 80px;
+    margin-top: 20px;
+  }
+  .scroll-two {
+    width: 400px;
+  }
+  .section {
+    width: 600px;
+    font-size: 20px;
+    margin-left: -80px;
+    text-align: left;
+    padding-right: -100px;
+  }
+  .section h4 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .custom-btn {
+    font-size: 25px;
+  }
+  .btn-5{
+    margin-right: -1000px;
+  }
+  .padding-serv {
+    width: 600px;
+  }
+  .slider {
+    width: 600px;
+  }
+}
+
+
+@media (max-width: 1440px){
+  .nav-bar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 260px;
+    margin-right:auto ;
+    width: 90%;
+   }
+
+
+}
+
+@media (max-width: 2000px){
+  .nav-bar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 500px;
+    margin-right:auto ;
+    width: 90%;
+   }
+
+
+}
+
