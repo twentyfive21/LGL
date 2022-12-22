@@ -245,16 +245,10 @@ background: linear-gradient(0deg, white 0%, white 100%);
 
   /* ABOUT US HTML PAGE */
 .media-img {
-  height: 300px; 
-  width: 450px;
-}
-
-.evan {
- object-fit: fill;
- margin: 4.0%;
- padding: 4.0%;
- padding-left: 20%;
- padding-top: 12%;
+  height: 335px; 
+  width: 470px;
+  margin-left: 50%;
+  margin-top: 96px;
 }
 
 .space {
@@ -520,7 +514,7 @@ background: linear-gradient(0deg, white 0%, white 100%);
 /* projects*/
 
 /* responsive page */
-@media (max-width: 600px)
+@media screen and (max-width: 600px)
  {
   .image-list-small{
     width: 300px;
@@ -531,7 +525,7 @@ background: linear-gradient(0deg, white 0%, white 100%);
 }
 
 /* projects page smaller pixel */
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .image-list-small{
     width: 300px;
     margin-top: -30px;
@@ -539,6 +533,14 @@ background: linear-gradient(0deg, white 0%, white 100%);
   }
 
 }
+
+
+
+
+
+
+
+
 
 
 
