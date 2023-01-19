@@ -1,4 +1,11 @@
 /* service image css*/
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .ser {
     width: auto;
     height: 500px;
@@ -28,7 +35,8 @@
   border: 10px solid white;
   background-image: url(./images/EVAN.jpg);
   background-size: cover;
-  background-position: 50%;
+  background-position: 5px;
+  
 }
 
 .thank {

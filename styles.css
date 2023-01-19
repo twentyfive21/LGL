@@ -536,6 +536,20 @@ background: linear-gradient(0deg, white 0%, white 100%);
     font-size: 15px;
   }
 
+  .scroll {
+  background-image: url(./images/new\ header.jpg);
+  background-repeat: no-repeat;
+   background-size: 900px;
+   background-position: center;
+}
+  .scroll-two {
+    background-image: url(./images/index-two-image.jpg);
+  }
+
+  .padding-serv {
+    display: none;
+  }
+
 }
 
 
