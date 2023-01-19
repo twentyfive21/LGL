@@ -26,10 +26,9 @@
   align-items: center;
   justify-content: center;
   border: 10px solid white;
-  background-image: url(./images/finaltree.jpeg);
+  background-image: url(./images/EVAN.jpg);
   background-size: cover;
   background-position: 50%;
-  background-attachment: fixed;
 }
 
 .thank {

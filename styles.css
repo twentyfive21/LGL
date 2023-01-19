@@ -1,6 +1,8 @@
 /*/ hunter green hex code #11290f*/
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -17,11 +19,8 @@ body {
  }
 
  .navbar {
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
+  justify-content: center;
   display: block;
-  margin-left: auto;
  }
 
  .brand-title {
@@ -29,11 +28,13 @@ body {
   margin: .5rem;
  }
 
+ 
  .nav-bar-links ul {
-  margin: 0;
-  padding: 0;
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-right: 50px;
+  flex-wrap: nowrap;
  }
 
  .nav-bar-links li {
@@ -45,9 +46,6 @@ body {
   font-weight: 500;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
-  text-align: center;
-  display: inline;
-  margin-left: 185px;
   letter-spacing: 5px;
   font-weight: bolder;
  }
@@ -479,18 +477,17 @@ background: linear-gradient(0deg, white 0%, white 100%);
   }
 
   .nav-bar-links ul {
-    width: 100%;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
   }
 
   .nav-bar-links li {
-    text-align: center;
+   
   }
 
   .nav-bar-links li a {
-    padding: .5rem 1rem;;
+   
    }
 
    .nav-bar-links.active {
