@@ -511,3 +511,15 @@
 }
 }
 }
+
+
+@media screen and (max-width: 2000px) {
+  .about{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./images/patio-new.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+}
