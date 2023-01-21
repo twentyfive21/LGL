@@ -1,4 +1,11 @@
 /* service image css*/
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .ser {
     width: auto;
     height: 500px;
@@ -26,10 +33,10 @@
   align-items: center;
   justify-content: center;
   border: 10px solid white;
-  background-image: url(./images/finaltree.jpeg);
+  background-image: url(./images/EVAN.jpg);
   background-size: cover;
-  background-position: 50%;
-  background-attachment: fixed;
+  background-position: 5px;
+  
 }
 
 .thank {
@@ -503,4 +510,16 @@
 }
 }
 }
+}
+
+
+@media screen and (max-width: 2000px) {
+  .about{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./images/patio-new.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
 }
