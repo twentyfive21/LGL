@@ -127,9 +127,8 @@
     width: auto;
     padding-top: 140px;
     padding-left: 50px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
     text-align: center;
     color: white;
     font-size: medium;
@@ -247,8 +246,6 @@
   }
   .foot {
     font-size: 12px;
-    margin-left: 100px;
-    margin-right: 100px;
     padding-right: 50px;
     letter-spacing: 1.5px;
     height: 400px;
@@ -323,12 +320,12 @@
 /* Footer */
 .foot {
   font-size: 12px;
-  margin-left: 50px;
-  margin-right: 20px;
+  margin-left: 0%;
+  margin-right: 0%;
   padding-right: 50px;
+  display: flex;
   letter-spacing: 1.5px;
   height: 400px;
-  width: auto;
   color: white;
   font-size: medium;
   font-weight: lighter;

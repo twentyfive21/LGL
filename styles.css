@@ -19,7 +19,6 @@ body {
  }
 
  .navbar {
-  justify-content: center;
   display: block;
  }
 
@@ -27,6 +26,7 @@ body {
   font-size: 1.5rem;
   margin: .5rem;
  }
+
 
  
  .nav-bar-links ul {
@@ -113,7 +113,7 @@ body {
 }
 
 .scroll-head {
-  font-size: 60px;
+  font-size: 5vw;
   color: white;
   padding: 8px 24px;
   border-radius: 16px;
@@ -487,11 +487,12 @@ background: linear-gradient(0deg, white 0%, white 100%);
   }
 
   .nav-bar-links li a {
-   
+    
    }
 
    .nav-bar-links.active {
     display: flex;
+    flex-direction: column;
    }
 
 }
@@ -519,31 +520,61 @@ background: linear-gradient(0deg, white 0%, white 100%);
 }
 
 /* projects page smaller pixel */
-@media screen and (max-width: 375px) {
-  .image-list-small{
+@media screen and (max-width: 1200px) {
+  
+.image-list-small{
     width: 300px;
     margin-top: -30px;
     padding-right: 20px;
   }
 
-}
+
 
 /* index.html */
 
 @media screen and (max-width: 600px)
 {
   .scroll-head {
-    font-size: 15px;
+    font-size: 4vw;
   }
 
   .scroll {
   background-image: url(./images/new\ header.jpg);
   background-repeat: no-repeat;
-   background-size: 900px;
+   background-size: auto;
    background-position: center;
 }
   .scroll-two {
     background-image: url(./images/index-two-image.jpg);
+    background-repeat: no-repeat;
+   background-position: center;
+  }
+
+  .padding-serv {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 1108px)
+{
+  .scroll-head {
+    font-size: 4vw;
+    background-size: auto;
+   background-repeat: no-repeat;
+   background-position: center;
+  }
+
+  .scroll {
+  background-image: url(./images/new\ header.jpg);
+   background-size: auto;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+  .scroll-two {
+    background-image: url(./images/index-two-image.jpg);
+    background-repeat: no-repeat;
+   background-position: center;
   }
 
   .padding-serv {
@@ -553,6 +584,57 @@ background: linear-gradient(0deg, white 0%, white 100%);
 }
 
 
+@media screen and (max-width: 702px){
+  .nav-bar-links li a {
+    margin-left: 1px;
+  }
+}
+
+
+@media screen and (max-width: 670px){
+  .nav-bar-links li a {
+  border: 2px solid white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 2px;
+  }
+}
+
+
+@media screen and (width: 800px) {
+ 
+  }
+
+}
+
+@media screen and (max-width: 658px){
+.nav-bar-links li a {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+ }
+}
+
+
+/* projects final */
+@media screen and (max-width: 1289px){
+  .image-list-small{
+  display: flex;
+  flex-direction: column;
+  margin: 0% 20px;
+  }
+  
+}
+
+@media screen and (max-width: 1200){
+  .image-list-small{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 100%;
+    background-color: purple;
+}
+}
 
   
 
