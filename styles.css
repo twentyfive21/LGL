@@ -322,9 +322,8 @@ background: linear-gradient(0deg, white 0%, white 100%);
 .ending-header {
     text-align: center;
     letter-spacing: 6px;
-    margin-top: 32%;
-    padding-top: 200px;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
+    border: 2px solid red;
     text-transform: capitalize;
 }
 
@@ -456,7 +455,10 @@ background: linear-gradient(0deg, white 0%, white 100%);
 }
 
 /* responsive setting */
-
+.hello {
+  border: 2px solid purple;
+  
+}
 
 /* nav bar css */
 @media screen and (max-width: 600px) 
@@ -617,7 +619,7 @@ background: linear-gradient(0deg, white 0%, white 100%);
 }
 
 
-/* projects final */
+/* projects final 
 @media screen and (max-width: 1289px){
   .image-list-small{
   display: flex;
@@ -627,13 +629,36 @@ background: linear-gradient(0deg, white 0%, white 100%);
   
 }
 
-@media screen and (max-width: 1200){
+@media screen and (max-width: 1200px){
   .image-list-small{
     display: flex;
     flex-direction: column;
-    margin: 0% 100%;
-    background-color: purple;
+    margin: 0 40px;
 }
+}
+
+@media screen and (max-width: 1139px){
+  .image-list-small{
+    display: flex;
+    flex-direction: column;
+    margin: 0 35px;
+}
+}
+@media screen and (max-width: 1109px){
+.hello{
+  display: flex;
+  margin: 0;
+}
+}
+*/
+
+@media screen and (max-width: 1294px){
+  .hello .media-1 .media-2 .media-3{
+    display: flex;
+  }
+  .foot{
+    display: flex;
+  }
 }
 
   
