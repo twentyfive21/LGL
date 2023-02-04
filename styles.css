@@ -455,11 +455,7 @@ background: linear-gradient(0deg, white 0%, white 100%);
 
 /* responsive setting */
 /*
-.hello {
-  border: 2px solid purple;
-  
-}
-*/
+
 
 /* nav bar css */
 @media screen and (max-width: 600px) 
