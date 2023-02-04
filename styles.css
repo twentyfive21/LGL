@@ -616,7 +616,7 @@ background: linear-gradient(0deg, white 0%, white 100%);
 }
 
 
-/* projects final 
+/* projects final */
 @media screen and (max-width: 1289px){
   .image-list-small{
   display: flex;
