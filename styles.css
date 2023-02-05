@@ -510,10 +510,8 @@ background: linear-gradient(0deg, white 0%, white 100%);
 /* responsive page */
 @media screen and (max-width: 600px)
  {
-  .image-list-small{
-    width: 300px;
-    margin-top: -30px;
-    padding-left: 50px;;
+  #hidden-images{
+    display: none;
   }
 
 }
@@ -601,11 +599,7 @@ background: linear-gradient(0deg, white 0%, white 100%);
 }
 
 
-@media screen and (width: 800px) {
- 
-  }
 
-}
 
 @media screen and (max-width: 658px){
 .nav-bar-links li a {
@@ -619,12 +613,12 @@ background: linear-gradient(0deg, white 0%, white 100%);
 /* projects final */
 @media screen and (max-width: 1289px){
   .image-list-small{
-  display: flex;
-  flex-direction: column;
-  margin: 0% 20px;
-  }
-  
+    display: flex;
+    flex-direction: column;
 }
+}
+
+
 
 @media screen and (max-width: 1200px){
   .image-list-small{
