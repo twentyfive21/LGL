@@ -24,19 +24,15 @@
 }
 .about {
   width: auto;
+  margin-left: 1%;
   height: 500px;
-  margin-right: 30px;
-  margin-left: 30px;
-  margin-top: 25px;
-  margin-bottom: 95px;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 10px solid white;
-  background-image: url(./images/EVAN.jpg);
+background-image: url(./images/ABOUT-FEB.jpeg);
   background-size: cover;
   background-position: 5px;
-  
 }
 
 .thank {
@@ -127,9 +123,8 @@
     width: auto;
     padding-top: 140px;
     padding-left: 50px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
     text-align: center;
     color: white;
     font-size: medium;
@@ -247,8 +242,6 @@
   }
   .foot {
     font-size: 12px;
-    margin-left: 100px;
-    margin-right: 100px;
     padding-right: 50px;
     letter-spacing: 1.5px;
     height: 400px;
@@ -323,12 +316,12 @@
 /* Footer */
 .foot {
   font-size: 12px;
-  margin-left: 50px;
-  margin-right: 20px;
+  margin-left: 0%;
+  margin-right: 0%;
   padding-right: 50px;
+  display: flex;
   letter-spacing: 1.5px;
   height: 400px;
-  width: auto;
   color: white;
   font-size: medium;
   font-weight: lighter;
@@ -518,8 +511,75 @@
    display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(./images/patio-new.jpg);
+  background-image: url(./images/ABOUT-FEB.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   }
 }
+
+
+/*images*/
+@media screen and (max-width: 600px){
+  .ser {
+    width: auto;
+    height: 500px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid white;
+    background-image: url(./images/finaltree.jpeg);
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: scroll;
+}
+
+.scroll {
+  width: auto;
+  height: 500px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 25px;
+  margin-bottom: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid white;
+  background-image: url(./images/new\ header.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: scroll;
+}
+
+.scroll-head {
+  font-size: 4vw;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 16px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.scroll-two {
+  width: auto;
+  height: 500px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 25px;
+  margin-bottom: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid white;
+  background-image: url(./images/index-two-image.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: scroll;
+}
+
+}
+
+
