@@ -6,5 +6,8 @@
     "cSpell.ignoreWords": [
         "buttonleft",
         "finaltree"
+    ],
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "main"
     ]
 }
