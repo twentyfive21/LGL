@@ -24,13 +24,12 @@
 }
 .about {
   width: auto;
-  margin-left: 1%;
   height: 500px;
   display: flex;
+  margin: 0 15px 0 8px;
   align-items: center;
   justify-content: center;
-  border: 10px solid white;
-background-image: url(./images/ABOUT-FEB.jpeg);
+  background-image: url(./images/ABOUT-FEB.jpeg);
   background-size: cover;
   background-position: 5px;
 }
@@ -113,8 +112,7 @@ background-image: url(./images/ABOUT-FEB.jpeg);
 }
 /* main page text boxes 150 x 500 */
 .section {
-    padding-left: 150px;
-    padding-right: 250px;
+    padding: 0px  150px;
     letter-spacing: 1px;
 }
 /* footer*/
