@@ -16,3 +16,34 @@ The page has a homepage, about us, contact us, projects, and a services page. I 
 [https://github.com/1uckyswish]
 
 If you have read this far I appreciate it and hope you enjoyed looking at my website!
+
+Picture Credits:
+Index page : 
+
+[http://www.laneslawncare.com/silver-package.html]
+
+[https://arcadianlandscape.com/artificial-grass-san-diego-installer/]
+
+About us:
+
+[https://www.reit.com/investing/reits-sustainability/2021-reit-esg-report]
+
+Our services : 
+
+[https://escplighthouse.eu/2022/01/05/forestry-and-logging/]
+
+Projects page : 
+
+[https://www.rcwilley.com/blogs/The-RC-Willey-Blog/34/2018/4/7594/Flower-Bed-Ideas]
+
+[https://denverartificialgrasspros.com/3-types-of-garden-pathway-surfacing-for-synthetic-turf-in-denver/amp/]
+
+[https://www.eanddlandscape.com/mulching]
+
+[https://samspersonallandscaping.com/services/leaf-pickup/]
+
+[https://agapelawnco.com/blog/protect-your-triangle-landscape-with-mulch-pine-straw/]
+
+Thank You For contacting us page: 
+[https://www.pexels.com/search/house%20with%20lawn%20/]
+
