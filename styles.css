@@ -242,9 +242,7 @@ background: linear-gradient(0deg, white 0%, white 100%);
 }
 
 .col-md-8 {
-  padding-top: 2%;
-  padding-left: 3%;
-  padding-right: 10%;
+ padding: 10%;
 }
 
 .card-header {
@@ -483,7 +481,7 @@ padding: 50px;
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
-   margin-left: 13    px;
+   margin-left: 13.5px;
   }
 
    .nav-bar-links.active {
