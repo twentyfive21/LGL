@@ -276,6 +276,9 @@
   justify-content: center;
   border: 10px solid white;
   background-image: url(./images/thank.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
 }
 .custom-btn {
   font-size: 10px;
@@ -561,7 +564,6 @@
   background-position: 50%;
   background-attachment: scroll;
 }
-
 }
 
 
