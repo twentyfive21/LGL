@@ -112,8 +112,10 @@
 }
 /* main page text boxes 150 x 500 */
 .section {
-    padding: 0px  150px;
-    letter-spacing: 1px;
+  padding-left: 150px;
+  padding-right: 250px;
+  letter-spacing: 1px;
+  margin: 0;
 }
 /* footer*/
 .foot{
