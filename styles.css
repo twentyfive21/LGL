@@ -733,8 +733,11 @@ padding: 50px;
   }
 
   #phone-btn{
-    margin: 30px 50px;
-    padding: 0;
+    /* margin: 30px 50px;
+    padding: 0; */
+    width: 50%;
+    margin: 0 0px 0 100px ;
+    text-align: center;
   }
 
 }
