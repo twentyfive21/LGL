@@ -572,7 +572,7 @@ padding: 50px;
 
 
 
-@media only screen and (device-width : 912px) and (device-height: 1366px){
+@media only screen and (device-width : 912px) and (device-height: 1368px){
   .image-list-small{
   align-self: center;
   padding: 0;
@@ -733,8 +733,11 @@ padding: 50px;
   }
 
   #phone-btn{
-    margin: 30px 50px;
-    padding: 0;
+    /* margin: 30px 50px;
+    padding: 0; */
+    width: 50%;
+    margin: 0 0px 0 100px ;
+    text-align: center;
   }
 
 }
