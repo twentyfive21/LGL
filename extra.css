@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .cell {
@@ -141,17 +142,18 @@
   .custom-btn {
     width: 200px;
     height: 50px;
-    margin-left: 155px;
+    /* margin-left: 155px; */
     font-family: didot, serif;
     letter-spacing: 1.5px;
     background: transparent;
     cursor: crosshair;
     transition: all 0.5s ease;
-    position: relative;
+    /* position: relative; */
     border-radius: 0px;
     border: 2px solid black;
     text-decoration: none;
     color:  #11290f;
+    
   }
   .btn-5:hover {
     border: transparent;
@@ -249,6 +251,11 @@
   }
 @media screen and (max-width:600px) 
 {
+
+  body{
+    /* border: 2px solid red; */
+    overflow-x: hidden;
+  }
   .section{
     /* display: inline-block;
     margin-left: -100px;
@@ -259,18 +266,24 @@
     /* background-color: red; */
 }
 
-.section h4{
-  padding: 5px;
+.section h5{
+  padding: 10px 10px 0px 10px;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
+  /* border: 2px solid red; */
+  margin: 0;
 }
 
 .section p{
-  font-size: 18px;
-  padding: 10px 10px 0px 10px;
+  font-size: 15px;
+  padding: 10px 30px 0px 30px;
   margin: ;
   text-align: center;
+  /* border: 2px solid purple; */
+  margin: 0;
 }
+
+
 
 .thankyou {
   display: inline-block;
@@ -309,11 +322,12 @@
   background: transparent;
   cursor: crosshair;
   transition: all 0.5s ease;
-  position: relative;
+  /* position: relative; */
   border-radius: 0px;
   border: 1px solid black;
   text-decoration: none;
   color:  #11290f;
+  /* border: 2px solid green; */
 }
   .center {
     text-align: center;
