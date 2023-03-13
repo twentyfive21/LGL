@@ -40,16 +40,10 @@
 }
 
 .thank {
-  width: auto;
-  height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 10px solid white;
   background-image: url(./images/thank.jpg);
-  background-size: cover;
-  background-position: 50%;
-  background-attachment: fixed;
+  background-repeat: no-repeat;
+   background-size: auto;
+   background-position: center;
 }
 .center {
     text-align: center;
