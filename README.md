@@ -12,12 +12,14 @@ CSS stands for cascading style sheets and it is used to style your webpages. For
 
 #### Javascript is used by many programmers around the world to make the document more interactive and responsive. This language makes your page more functional and dynamic. For someone who may not still get it this is the elevator that moves up and down. 
 ---
-The page has a homepage, about us, contact us, projects, and a services page. I faced many challenges making this, but I came out with so much more knowledge. I have made a few simple pages for fun in the past, but this is my first page that is being displayed to actual clients. In the future I hope to be able to implement more css and Javascript to see how far my skills have grown. I also had a team member who helped contribute to this project shoutout to Noel for helping me get this done! I also learned alot using GIT and GITHUB with him for the first time. Linked below is his github page:
+The page has a homepage, about us, contact us, projects, and a services page. I faced many challenges making this, but I came out with so much more knowledge. I have made a few simple pages for fun in the past, but this is my first page that is being displayed to actual clients. In the future I hope to be able to implement more css and Javascript to see how far my skills have grown. I also had a team member who helped contribute to this project shoutout to Noel for helping me get this done! I also learned alot using GIT and GITHUB with him for the first time. 
+
+Linked below is his github page:
+
 [https://github.com/1uckyswish]
 
 If you have read this far I appreciate it and hope you enjoyed looking at my website!
 
 Picture Credits:
 [https://www.pexels.com/] and [https://unsplash.com/]
----
-Credit to noel for helping me wiht this page! [https://github.com/1uckyswish]
+
