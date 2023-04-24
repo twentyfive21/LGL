@@ -513,6 +513,10 @@ background: linear-gradient(0deg, white 0%, white 100%);
 
 @media screen and (max-width: 600px)
  {
+  .hello{
+    padding: 0;
+  }
+
   .image-list-small{
     display: flex;
     flex-direction: column;
@@ -598,6 +602,10 @@ background: linear-gradient(0deg, white 0%, white 100%);
 
 
 @media only screen and (device-width : 1280px) and (device-height: 800px){
+  .hello{
+    padding: 0;
+  }
+
   .image-list-small{
     width: 500px;
     margin-top: -20px;
@@ -614,6 +622,9 @@ background: linear-gradient(0deg, white 0%, white 100%);
 
 
 @media screen and (max-width: 1000px) {
+  .hello{
+    padding: 0;
+  }
   .image-list-small{
     display: flex;
     flex-direction: column;
@@ -627,6 +638,9 @@ background: linear-gradient(0deg, white 0%, white 100%);
 
 
 @media only screen and (device-width : 820px) and (device-height: 1180px){
+  .hello{
+    padding: 0;
+  }
   .image-list-small{
     display: flex;
     flex-direction: column;
@@ -648,6 +662,9 @@ background: linear-gradient(0deg, white 0%, white 100%);
 
 
 @media only screen and (device-width : 810px) and (device-height: 1080px) { 
+  .hello{
+    padding: 0;
+  }
   .image-list-small{
     display: flex;
     flex-direction: column;
@@ -667,6 +684,9 @@ background: linear-gradient(0deg, white 0%, white 100%);
 
 /* projects page smaller pixel */
 @media screen and (max-width: 1200px) {
+  .hello{
+    padding: 0;
+  }
   
 .image-list-small{
     width: 300px;
@@ -686,6 +706,9 @@ background: linear-gradient(0deg, white 0%, white 100%);
 
 
 @media screen and (max-width: 1200px){
+  .hello{
+    padding: 0;
+  }
   .image-list-small{
     display: flex;
     flex-direction: column;
@@ -694,6 +717,9 @@ background: linear-gradient(0deg, white 0%, white 100%);
 }
 
 @media screen and (max-width: 1139px){
+  .hello{
+    padding: 0;
+  }
   .image-list-small{
     display: flex;
     flex-direction: column;
@@ -704,6 +730,7 @@ background: linear-gradient(0deg, white 0%, white 100%);
 .hello{
   display: flex;
   margin: 0;
+  padding: 0;
 }
 }
 
