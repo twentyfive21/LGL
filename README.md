@@ -1,8 +1,8 @@
 # Landscaping Website using HTML, CSS, and Javascript
 ---
 # Overview
-This is the link to my site : [ ]
-### This landscaping website is made for one of my good friends Evan who is in the landscaping business. This site takes on a modern design and is smooth for users to navigate. I wanted to implement a site that was sleek since many of the ones I have seen were generic and plain. This site uses the following languages that a front end developer must master. The following languages used in this site are HTML, CSS, and Javascript. I wanted to note that HTML and CSS are considered markup languages and are not actual programming languages. The only language that is a actual programming language is Javascript. I utilized VSCODE (Visual Studio Code) since a simple text editor would not be as productive in syntax highlighting, auto-completion, and so much more. 
+This is the link to our site : [https://lglbyevan.com/]
+### This landscaping website is made for one of my good friends Evan, who is in the landscaping business. This site takes on a modern design and is smooth for users to navigate. I wanted to implement a site that was sleek since many of the ones I have seen were generic and plain. This site uses the following languages that a front end developer must master. The following languages used in this site are HTML, CSS, and Javascript. I wanted to note that HTML and CSS are considered markup languages and are not actual programming languages. The only language that is a actual programming language is Javascript. I utilized VSCODE (Visual Studio Code) since a simple text editor would not be as productive in syntax highlighting, auto-completion, and so much more. 
 ---
 Here is a little explanation of the languages for any beginners out there! If you have any questions or tips please reach out to me! I would appreciate any feedback to help me learn more. 
 
@@ -18,32 +18,4 @@ The page has a homepage, about us, contact us, projects, and a services page. I 
 If you have read this far I appreciate it and hope you enjoyed looking at my website!
 
 Picture Credits:
-Index page : 
-
-[http://www.laneslawncare.com/silver-package.html]
-
-[https://arcadianlandscape.com/artificial-grass-san-diego-installer/]
-
-About us:
-
-[https://www.reit.com/investing/reits-sustainability/2021-reit-esg-report]
-
-Our services : 
-
-[https://escplighthouse.eu/2022/01/05/forestry-and-logging/]
-
-Projects page : 
-
-[https://www.rcwilley.com/blogs/The-RC-Willey-Blog/34/2018/4/7594/Flower-Bed-Ideas]
-
-[https://denverartificialgrasspros.com/3-types-of-garden-pathway-surfacing-for-synthetic-turf-in-denver/amp/]
-
-[https://www.eanddlandscape.com/mulching]
-
-[https://samspersonallandscaping.com/services/leaf-pickup/]
-
-[https://agapelawnco.com/blog/protect-your-triangle-landscape-with-mulch-pine-straw/]
-
-Thank You For contacting us page: 
-[https://www.pexels.com/search/house%20with%20lawn%20/]
-
+[https://www.pexels.com/] and [https://unsplash.com/]
