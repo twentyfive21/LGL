@@ -262,8 +262,7 @@ background: linear-gradient(0deg, white 0%, white 100%);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: 0;
-  border: 2px solid red;
-  padding: 0;
+  padding: 0 35px 0 0;
 }
 
 .image-list-small {
