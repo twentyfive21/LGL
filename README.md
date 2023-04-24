@@ -19,3 +19,5 @@ If you have read this far I appreciate it and hope you enjoyed looking at my web
 
 Picture Credits:
 [https://www.pexels.com/] and [https://unsplash.com/]
+---
+Credit to noel for helping me wiht this page! [https://github.com/1uckyswish]
