@@ -234,17 +234,21 @@ background: linear-gradient(0deg, white 0%, white 100%);
   /* ABOUT US HTML PAGE */
 
 .space {
-  padding-top: 10%;
+  padding-top: 9%;
 }
 
 .col-md-8 {
- padding: 5% 10% 5% 2%;
+ /* padding: 5% 10% 5% 2%; */
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ padding: 20px 20px 20px 30px;
 }
 
 .card-header {
-  padding-top: 80px;
-  text-align: center;
-  letter-spacing: 1px;
+  /* padding-top: 80px; */
+  /* text-align: center;
+  letter-spacing: 1px; */
 }
 
 /* project page */
@@ -868,7 +872,9 @@ text-align:center;
   width: auto;
   height: 500px;
   display: flex;
-  margin: 40px 15px 0 20px;
+  margin: 0;
+  padding: 0;
+  /* margin: 40px 15px 0 20px; */
   align-items: center;
   justify-content: center;
   background-image: url(./newimages/newabout.jpg);
