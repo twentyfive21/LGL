@@ -21,6 +21,7 @@ body {
   display: flex;
   justify-content: space-around;
   padding-right: 50px;
+  text-decoration: none;
  }
  .nav-bar-links li a {
   color: black;
@@ -400,6 +401,7 @@ text-align:center;
    flex-direction: column;
    flex-wrap: wrap;
    margin-left: 13.5px;
+   text-decoration: none;
   }
 
    .nav-bar-links.active {
