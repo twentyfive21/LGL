@@ -124,10 +124,9 @@ hr {
   margin-inline-end: 0px;
 
 }
-/* 5 */
-
+/* index button */
 button {
-  margin: 20px;
+  margin-top: 20px;
 }
 .custom-btn {
   width: 130px;
@@ -145,20 +144,9 @@ button {
    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
    7px 7px 20px 0px rgba(0,0,0,.1),
    4px 4px 5px 0px rgba(0,0,0,.1);
-  outline: none;
-}
-
-.btn-5 {
-  width: 130px;
-  height: 40px;
-  line-height: 42px;
-  padding: 0;
-  border: none;
-  background: rgb(255,27,0);
-background: linear-gradient(0deg, white 0%, white 100%);
+  
 }
 .btn-5:hover {
-  color: #f0094a;
   background: transparent;
    box-shadow:none;
 }
@@ -197,7 +185,7 @@ background: linear-gradient(0deg, white 0%, white 100%);
   /* ABOUT US HTML PAGE */
 
 .space {
-  padding-top: 9%;
+  padding-top: 10%;
 }
 
 .col-md-8 {
@@ -633,8 +621,6 @@ text-align:center;
   padding: 0;
 }
 }
-
-
 /* index.html */
 
 @media screen and (max-width: 600px)
@@ -730,13 +716,6 @@ text-align:center;
   flex-wrap: wrap;
   text-align: center;
  }
-}
-
-@media screen and (max-width: 1294px){
-
-  .foot{
-    display: flex;
-  }
 }
 }
   
@@ -857,13 +836,11 @@ text-align:center;
   .custom-btn {
     width: 200px;
     height: 50px;
-    /* margin-left: 155px; */
     font-family: didot, serif;
     letter-spacing: 1.5px;
     background: transparent;
     cursor: crosshair;
     transition: all 0.5s ease;
-    /* position: relative; */
     border-radius: 0px;
     border: 2px solid black;
     text-decoration: none;
@@ -966,19 +943,11 @@ text-align:center;
   }
 @media screen and (max-width:600px) 
 {
-
   body{
-    /* border: 2px solid red; */
     overflow-x: hidden;
   }
   .section{
-    /* display: inline-block;
-    margin-left: -100px;
-    margin-right: -200px; */
-    /* font-size: 13px; */
-    /* letter-spacing: 1px; */
     display: inline;
-    /* background-color: red; */
 }
 
 .section h5{
@@ -1027,17 +996,16 @@ text-align:center;
   width: 125px;
   height: 45px;
   margin-left: 125px;
+  margin-bottom: 50px;
   font-family: didot, serif;
   letter-spacing: 1.5px;
   background: transparent;
   cursor: crosshair;
   transition: all 0.5s ease;
-  /* position: relative; */
   border-radius: 0px;
   border: 1px solid black;
   text-decoration: none;
   color:  #11290f;
-  /* border: 2px solid green; */
 }
   .center {
     text-align: center;
@@ -1066,7 +1034,6 @@ text-align:center;
 .foot p {
   font-size: 12px;
   text-align: center;
-  background-color: pink;
 }
 .foot button {
   font-size: 10px;
@@ -1423,18 +1390,15 @@ text-align:center;
   .custom-btn {
     width: 200px;
     height: 50px;
-    /* margin-left: 155px; */
     font-family: didot, serif;
     letter-spacing: 1.5px;
     background: transparent;
     cursor: crosshair;
     transition: all 0.5s ease;
-    /* position: relative; */
     border-radius: 0px;
     border: 2px solid black;
     text-decoration: none;
     color:  #11290f;
-    
   }
   .btn-5:hover {
     border: transparent;
@@ -1669,7 +1633,6 @@ text-align:center;
   background-size: cover;
   background-position: 50%;
   background-attachment: fixed;
-}
 }
 }
 }
