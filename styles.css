@@ -9,6 +9,11 @@ body {
   font-family: didot, serif;
   background-color: #FDFEFF;
  }
+
+ a, ul, li{
+  list-style-type: none;
+ }
+
  .brand-title {
   display: grid;
   place-items: center;
@@ -72,6 +77,7 @@ body {
   background-size: cover;
   background-position: 50%;
   background-attachment: fixed;
+  image-rendering:crisp-edges;
 }
 
 .scroll-head {
@@ -98,6 +104,7 @@ body {
   background-size: cover;
   background-position: 50%;
   background-attachment: fixed;
+  image-rendering:crisp-edges;
 }
 
 hr {
@@ -638,11 +645,13 @@ text-align:center;
   background-repeat: no-repeat;
    background-size: auto;
    background-position: center;
+   image-rendering:crisp-edges;
 }
   .scroll-two {
     background-image: url(./images/index-two-image.jpg);
     background-repeat: no-repeat;
    background-position: center;
+   image-rendering:crisp-edges;
   }
 
   .padding-serv {
@@ -682,11 +691,13 @@ text-align:center;
     background-size: cover;
     background-position: 50%;
     background-attachment: scroll;
+    image-rendering:crisp-edges;
   }
   .scroll-two {
     background-image: url(./newimages/newmain2.jpg);
     background-repeat: no-repeat;
    background-position: center;
+   image-rendering:crisp-edges;
   }
 
   .padding-serv {
@@ -751,12 +762,14 @@ text-align:center;
     background-size: cover;
     background-position: 50%;
     background-attachment: fixed;
+    image-rendering:crisp-edges;
 }
 .thank {
   background-image: url(./images/thank.jpg);
   background-repeat: no-repeat;
    background-size: auto;
    background-position: center;
+   image-rendering:crisp-edges;
 }
 .center {
     text-align: center;
@@ -931,6 +944,7 @@ text-align:center;
     background-size: cover;
     background-position: 50%;
     background-attachment: fixed;
+    image-rendering:crisp-edges;
   }
   .foot {
     font-size: 12px;
@@ -1199,6 +1213,7 @@ text-align:center;
   background-size: cover;
   background-position: 50%;
   background-attachment: fixed;
+  image-rendering:crisp-edges;
 }
 }
 }
@@ -1213,6 +1228,7 @@ text-align:center;
   background-image: url(./newimages/newabout.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  image-rendering:crisp-edges;
   }
 }
 
@@ -1234,6 +1250,7 @@ text-align:center;
     background-size: cover;
     background-position: 50%;
     background-attachment: scroll;
+    image-rendering:crisp-edges;
 }
 
 .scroll {
@@ -1251,6 +1268,7 @@ text-align:center;
   background-size: cover;
   background-position: 50%;
   background-attachment: scroll;
+  image-rendering:crisp-edges;
 }
 
 .scroll-head {
@@ -1277,6 +1295,7 @@ text-align:center;
   background-size: cover;
   background-position: 50%;
   background-attachment: scroll;
+  image-rendering:crisp-edges;
 }
 }
 
@@ -1295,6 +1314,7 @@ text-align:center;
     background-size: cover;
     background-position: 50%;
     background-attachment: fixed;
+    image-rendering:crisp-edges;
 }
 .about {
   width: auto;
@@ -1306,6 +1326,7 @@ text-align:center;
   background-image: url(./newimages/newabout.jpg);
   background-size: cover;
   background-position: 5px;
+  image-rendering:crisp-edges;
 }
 
 .thank {
@@ -1313,6 +1334,7 @@ text-align:center;
   background-repeat: no-repeat;
    background-size: auto;
    background-position: center;
+   image-rendering:crisp-edges;
 }
 .center {
     text-align: center;
@@ -1463,6 +1485,7 @@ text-align:center;
     background-size: cover;
     background-position: 50%;
     background-attachment: fixed;
+    image-rendering:crisp-edges;
   }
 @media screen and (max-width:600px) 
 {
@@ -1491,6 +1514,7 @@ text-align:center;
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
+  image-rendering:crisp-edges;
 }
 /* Footer */
 .foot {
@@ -1637,6 +1661,7 @@ text-align:center;
   background-size: cover;
   background-position: 50%;
   background-attachment: fixed;
+  image-rendering:crisp-edges;
 }
 }
 }
@@ -1649,6 +1674,7 @@ text-align:center;
   background-image: url(./newimages/newabout.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  image-rendering:crisp-edges;
   }
 }
 /*images*/
@@ -1668,6 +1694,7 @@ text-align:center;
     background-size: cover;
     background-position: 50%;
     background-attachment: scroll;
+    image-rendering:crisp-edges;
 }
 .scroll {
   width: auto;
@@ -1684,6 +1711,7 @@ text-align:center;
   background-size: cover;
   background-position: 50%;
   background-attachment: scroll;
+  image-rendering:crisp-edges;
 }
 .scroll-head {
   font-size: 4vw;
@@ -1700,5 +1728,6 @@ text-align:center;
   background-image: url(./newimages/newmain2.jpg);
   background-size: cover;
   background-position: 50%;
+  image-rendering:crisp-edges;
 }
 }
